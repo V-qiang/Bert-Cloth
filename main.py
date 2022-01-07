@@ -12,7 +12,7 @@ import data_util
 from data_util import ClothSample
 import numpy as np
 import torch
-import time
+import time  
 from pytorch_pretrained_bert.modeling import BertForCloth
 from pytorch_pretrained_bert.optimization import BertAdam
 from pytorch_pretrained_bert.file_utils import PYTORCH_PRETRAINED_BERT_CACHE
