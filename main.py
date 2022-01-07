@@ -6,7 +6,7 @@ from __future__ import print_function
 
 import os  
 import shutil
-import argparse
+import argparse  
 import random   
 import data_util
 from data_util import ClothSample
