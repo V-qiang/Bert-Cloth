@@ -5,7 +5,7 @@ import time
 import numpy as np
 import torch
 import json
-import nltk
+import nltk  
 import argparse
 import fnmatch
 import random
@@ -17,7 +17,7 @@ def get_json_file_list(data_dir):
     for root, dir_names, file_names in os.walk(data_dir):
         for filename in fnmatch.filter(file_names, '*.json'):
             files.append(os.path.join(root, filename))
-    return files
+    return files  
 
 def tokenize_ops(ops, tokenizer):
     ret = []
