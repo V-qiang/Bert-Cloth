@@ -9,7 +9,7 @@ import shutil
 import argparse  
 import random   
 import data_util
-from data_util import ClothSample
+from data_util import ClothSample  
 import numpy as np
 import torch
 import time  
